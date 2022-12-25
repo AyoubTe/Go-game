@@ -5,7 +5,8 @@ Go is an abstract strategy board game for two players in which the aim is to sur
 
 # Goals
 - This project is C code of the strategic game GO.
-- The game will contain to choice of play types: P2P and P v/s M
+- The code of programme will automatise the rules and at least 3 TSUME-Go (Tsumego (詰碁) is the Japanese term for a type of go problem based on life-and-death).
+- The game will contain to choice of play types: P2P and P v/s M.
 - In the context of this project we will have 3 levels of difficulty, which are : easy, medium and hard of user-machine side. 
 # Expected Versions
 - The first version of the game will be a console game only. 
