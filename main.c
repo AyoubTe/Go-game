@@ -345,51 +345,6 @@ void winner_machine(float points){  /// Le cas où l'ordinateur est le gagnant l
 
 
 /// ######################################################### Player V/S  Player SECTION ###############################################################
-/*
-void capture_milieu(int *T){ /// permet de capturer les pierres prisonnieres au milieu de Goban.
-    for (int i = 11 ; i<72; i++){
-        if (((T[i]==1)&&(T[i+1]==2)&&(T[i-1]==2)&&(T[i-9]==2)&&(T[i+9]==2))||((T[i]==2)&&(T[i+1]==1)&&(T[i-1]==1)&&(T[i-9]==1)&&(T[i+9]==1))){
-            T[i]=0;
-        }
-    }
-}
-void capture_coin(int *T){ /// Permet de capturer les pierres prisonniers au coinnes de goban.
-    if (((T[1]==1)&&(T[2]==2)&&T[10]==2)||((T[1]==2)&&(T[2]==1)&&T[10]==1)){
-        T[1] = 0;
-    }
-    if (((T[9]==1)&&(T[8]==2)&&T[18]==2)||((T[9]==2)&&(T[8]==1)&&T[18]==1)){
-        T[9] = 0;
-    }
-    if (((T[73]==1)&&(T[74]==2)&&T[64]==2)||((T[73]==2)&&(T[64]==1)&&T[74]==1)){
-        T[74] = 0;
-    }
-    if (((T[81]==1)&&(T[72]==2)&&T[80]==2)||((T[81]==2)&&(T[72]==1)&&T[80]==1)){
-        T[81] = 0;
-    }
-}
-void capture_cotees(int *T){  /// Permet de capturer les pierres prisonniers au cotes de goban.
-    for (int i = 2; i<9; i++){
-        if ( ((T[i]==1)&&(T[i-1]==2)&&(T[i+1]==2)&&(T[i+9]==2)) || ((T[i]==2)&&(T[i-1]==1)&&(T[i+1]==1)&&(T[i+9]==1)) ){
-            T[i] = 0;
-        }
-    }
-    for(int i = 74; i<81; i++){
-        if ( ((T[i]==1)&&(T[i-1]==2)&&(T[i+1]==2)&&(T[i-9]==2)) || ((T[i]==2)&&(T[i-1]==1)&&(T[i+1]==1)&&(T[i-9]==1)) ){
-            T[i] = 0;
-        }
-    }
-    for (int i = 10; i<65; i+=9){
-        if ( ((T[i]==1)&&(T[i-9]==2)&&(T[i+1]==2)&&(T[i+9]==2)) || ((T[i]==2)&&(T[i-9]==1)&&(T[i+1]==1)&&(T[i+9]==1)) ){
-            T[i] = 0;
-        }
-    }
-    for (int i = 18; i<73; i+=9){
-        if (((T[i]==1)&&(T[i-9]==2)&&(T[i-1]==2)&&(T[i+9]==2))||((T[i]==2)&&(T[i-9]==1)&&(T[i-1]==1)&&(T[i+9]==1))){
-            T[i] = 0;
-        }
-    }
-}
-*/
 
 void test(int *T, int **chaines, int *stones1, int *stones2, int *capture1, int *capture2){ /// Permet de faire de traitement sur le tableau contenat les emplacements des pierres pour faire de traitement a chaque fois qu'un joueur dispose une nouvelle pierre.
     ///capture_coin(T);
