@@ -94,5 +94,4 @@ The Go Game repository is licensed under the [MIT License](LICENSE).
 ## Contact
 If you have any questions or suggestions regarding the Go Game project, please feel free to contact us:
 
-- Email: [info@gogame.com](mailto:info@gogame.com)
-- Website: [https://www.gogame.com](https://www.gogame.com)
+- Email: [sami.ayoub.in@gmail.com](mailto:sami.ayoub.in@gmail.com)
